@@ -4,7 +4,10 @@ public class exercicio4 {
 	public static void main(String[] args) {
 		int[][] matriz = new int[4][4];
 		matriz = loadsWithRandomValues(matriz);
-
+		showPositiveValuesBetweenRange(matriz, 1, 100);
+		showNumbersDividedByEight(matriz);
+		showOddNumbersDivisibleByTree(matriz);
+		showLargestNumberFactorial(matriz);
 	}
 
 	static int[][] loadsWithRandomValues(int[][] mat) {
