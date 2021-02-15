@@ -22,13 +22,11 @@ public class exercicio1 {
 		int avegare = 0;
 		int valueBetweenRange = 0;
 		for (int i = 0; i <= balance.length; i++) {
-			if (balance[i] >= 100 && balance[1] <= 100) {
+			if (balance[i] >= 100 && balance[i] <= 100) {
 				avegare += 1;
 				valueBetweenRange += balance[i];
-			}
-			;
-		}
-		;
+			};
+		};
 		System.out.println(valueBetweenRange);
 	}
 
@@ -37,10 +35,8 @@ public class exercicio1 {
 		for (int i = 0; i <= balance.length; i++) {
 			if (balance[i] <= 0) {
 				valueBetweenRange += balance[i];
-			}
-			;
-		}
-		;
+			};
+		};
 		System.out.println(valueBetweenRange);
 	}
 }
