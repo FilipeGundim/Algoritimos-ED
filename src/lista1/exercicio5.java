@@ -15,7 +15,6 @@ public class exercicio5 {
 					value *= 3;
 					mat[j][i] = value;
 				}
-				value = 1 + (int) (Math.random() * 100);
 			}
 		}
 		return mat;
