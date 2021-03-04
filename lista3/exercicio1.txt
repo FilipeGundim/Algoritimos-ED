@@ -1,0 +1,11 @@
+Adiciona um elemento (20)
+Qual é o índice do início da fila? _____0_________
+Qual é o elemento do início da fila? _______20____
+Qual é o índice do final da fila? __________1____
+Qual é o elemento do final da fila? _____20______
+
+Adiciona um elemento (10)
+Qual é o índice do início da fila?1
+Qual é o elemento do início da fila? ____20_______
+Qual é o índice do final da fila? _______2_______
+Qual é o elemento do final da fila? _________10__
