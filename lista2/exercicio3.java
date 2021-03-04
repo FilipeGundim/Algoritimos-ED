@@ -1,12 +1,12 @@
 package lista2;
 
 public class exercicio2 {
-	private String[] vetor;
+	private char[] vetor;
 	private int size;
 
 	public exercicio2() {
 		this.size = 0;
-		this.vetor = new String[100];
+		this.vetor = new char[100];
 	}
 
 	public boolean isEmpty() {
@@ -23,7 +23,7 @@ public class exercicio2 {
 		return false;
 	}
 
-	public void addAtBeginning(String value) {
+	public void addAtBeginning(char value) {
 		if (isFull()) {
 			throw new RuntimeException("full list");
 		} else {
@@ -35,7 +35,7 @@ public class exercicio2 {
 		}
 	}
 
-	public void addAtEnd(String value) {
+	public void addAtEnd(char value) {
 		if (isFull()) {
 			throw new RuntimeException("full list");
 		} else {
@@ -44,7 +44,7 @@ public class exercicio2 {
 		}
 	}
 
-	public void addInAnyPosition(int position, String value) {
+	public void addInAnyPosition(int position, char value) {
 		int i;
 		if (isFull()) {
 			throw new RuntimeException("cant implement method");
@@ -77,12 +77,12 @@ public class exercicio2 {
 		if (isEmpty()) {
 			throw new RuntimeException("cant implement method");
 		} else {
-			this.vetor[this.size - 1] = (Stringacter) null;
+			this.vetor[this.size - 1] = (Character) null;
 			this.size -= 1;
 		}
 	}
 
-	public void removeInAnyPosition(int position, String value) {
+	public void removeInAnyPosition(int position, char value) {
 		int i;
 		if (isEmpty()) {
 			throw new RuntimeException("cant implement method");
@@ -99,8 +99,8 @@ public class exercicio2 {
 		}
 	}
 
-	public String scrollAndConcatenate() {
-		String concatenatedValue = 0;
+	public char scrollAndConcatenate() {
+		char concatenatedValue = 0;
 		if (isEmpty()) {
 			throw new RuntimeException("cant implement method");
 		} else {
